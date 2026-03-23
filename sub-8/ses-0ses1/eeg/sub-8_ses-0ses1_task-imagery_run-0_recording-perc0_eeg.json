@@ -1,0 +1,47 @@
+{
+	"TaskName": "imagery",
+	"Manufacturer": "actiCAP, Brain Products GmbH",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 200.0,
+	"SoftwareFilters": {
+		"preprocessing_steps": {
+			"Description": "anti-aliasing filter (25 Hz), notch filter (50 Hz), downsampling to 100 Hz, bad channel interpolation, eye artifact subtraction (SGEYESUB algorithm), removal of frontal (AF) row channels, high-pass filter (0.18 Hz), common average re-reference, pops and drifts attenuation (HEAR algorithm), low-pass filter (3 Hz), downsampling to 20 Hz"
+		}
+	},
+	"RecordingDuration": 1340.735,
+	"RecordingType": "continuous",
+	"EEGReference": "right mastoid",
+	"EEGGround": "Fpz",
+	"EEGPlacementScheme": "af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+	"EEGChannelCount": 60,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "actiCAP, Brain Products GmbH",
+	"SoftwareVersions": "MATLAB 2015b, Psychtoolbox, EEGLAB",
+	"HardwareFilters": {
+		"Bandpass": {
+			"LowCutoffFrequency": 0.18,
+			"HighCutoffFrequency": 3.0,
+			"Type": "Not specified"
+		},
+		"Notch": {
+			"CutoffFrequency": [
+				50
+			]
+		}
+	},
+	"TaskDescription": "[continuous 2D trajectory decoding] Attempted movement paradigm: participants instructed to attempt lower arm movement as if wielding a computer mouse while arm was strapped to armrest. Two task types: snakeruns (target tracking) and freeruns (self-paced shape tracing). Offline calibration followed by online feedback in 50% and 100% EEG feedback conditions. Trial duration: 23.0s.",
+	"Instructions": "Track snake with gaze and simultaneously attempt movement of strapped lower arm/hand as if wielding computer mouse; for freeruns: trace static shapes at own pace",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883/",
+	"InstitutionName": "Institute of Neural Engineering, Graz University of Technology",
+	"InstitutionAddress": "Stremayrgasse 16/IV, 8010 Graz, Austria",
+	"InstitutionalDepartmentName": "n/a",
+	"CapManufacturer": "n/a",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "Continuous 2D trajectory decoding from attempted movement: across-session performance in able-bodied and feasibility in a spinal cord injured participant",
+	"MISCChannelCount": 0
+}

@@ -1,0 +1,48 @@
+{
+	"Name": "BNCI 2025-002 Continuous 2D Trajectory Decoding dataset",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-4.0",
+	"Authors": [
+		"Hannah S Pulferer",
+		"Brynja \u00c1sgeirsd\u00f3ttir",
+		"Valeria Mondini",
+		"Andreea I Sburlea",
+		"Gernot R M\u00fcller-Putz"
+	],
+	"Funding": [
+		"European Research Council ERC-CoG 2015 681231 'Feel Your Reach'",
+		"NTU-TUG joint PhD program"
+	],
+	"EthicsApprovals": [
+		"Medical University of Graz, votum number 32\u2013583 ex 19/20"
+	],
+	"ReferencesAndLinks": [
+		"https://github.com/sccn/labstreaminglayer"
+	],
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.5.0"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.1088/1741-2552/ac689f",
+			"URL": "https://github.com/sccn/labstreaminglayer"
+		}
+	],
+	"Keywords": [
+		"electroencephalography",
+		"trajectory decoding",
+		"learning effects",
+		"source localization",
+		"motor control",
+		"neuroplasticity",
+		"brain-computer interface"
+	],
+	"PublicationYear": 2022
+}
