@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2025-002 Continuous 2D Trajectory Decoding dataset",
-  "description": "This dataset comprises continuous 2D trajectory decoding from attempted arm movements recorded via 60-channel EEG from 10 participants (9 able-bodied, 1 with spinal cord injury) across 3 sessions. Participants performed motor imagery tasks including target-tracking (snakerun) and self-paced shape tracing (freerun) with visual feedback, providing a resource for investigating learning effects and neuroprosthetic control in motor decoding. The preprocessed data includes temporal and source-localized features suitable for regression-based trajectory prediction models.",
-  "methods_description": "EEG was recorded at 200 Hz from 60 channels (actiCAP, Brain Products) with right mastoid reference and Fpz ground. Preprocessing included anti-aliasing (25 Hz) and notch (50 Hz) filtering, downsampling to 100 Hz, bad channel interpolation, eye artifact subtraction (SGEYESUB), removal of frontal channels, high-pass filtering (0.18 Hz), common average re-referencing, drift attenuation (HEAR algorithm), low-pass filtering (3 Hz), and final downsampling to 20 Hz. Feature extraction employed temporal features (7 time points × 55 channels) and sLORETA source localization. Decoding used PLS regression with UKF smoothing.",
+  "description": "This dataset comprises continuous 2D trajectory decoding data from 10 participants (9 able-bodied and 1 with spinal cord injury) performing attempted arm/hand movements while EEG was recorded. Participants tracked visual targets (snake-run tasks) or traced shapes (free-run tasks) while their arm was restrained, with decoded trajectory feedback provided in 50% and 100% EEG feedback conditions. The dataset includes preprocessed 60-channel EEG data acquired at 200 Hz, suitable for regression-based motor decoding research and assessment of learning effects across three sessions.",
+  "methods_description": "EEG was recorded from 60 channels using an actiCAP system (Brain Products GmbH) at 200 Hz sampling rate with right mastoid reference and Fpz ground. Participants performed attempted lower arm/hand movements as if wielding a computer mouse while the arm was strapped to an armrest. The experimental protocol included calibration runs (snake-run target tracking and eye-run baseline) followed by online feedback sessions with 50% and 100% EEG feedback conditions. Data were preprocessed including anti-aliasing (25 Hz) and notch (50 Hz) filtering, downsampling to 100 Hz, bad channel interpolation, eye artifact subtraction (SGEYESUB), high-pass filtering (0.18 Hz), common average re-referencing, artifact attenuation (HEAR algorithm), low-pass filtering (3 Hz), and final downsampling to 20 Hz. Feature extraction employed temporal features and sLORETA source localization with PLS regression and UKF smoothing for trajectory decoding.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -99,5 +99,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "cc7b7417069cac0317b79a3c94277c13162a085339d5d7b1107bd621046ee842"
+  "source_hash": "d993128af5349d647d4cb083ad1c7bf6b91b25ab2e41c62142a7d269159075d6"
 }
